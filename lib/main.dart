@@ -64,7 +64,9 @@ class WelcomeScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.green,
-                foregroundColor: Colors.white,
+                textStyle: TextStyle(
+                  fontWeight: FontWeight.bold
+                )
               ),
               child: Text('Press Me'),
             ),
